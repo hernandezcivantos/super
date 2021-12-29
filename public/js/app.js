@@ -37729,7 +37729,7 @@ var staticRenderFns = [
             _c("img", {
               staticClass: "logo_normal",
               attrs: {
-                src: "img/landing/logo.svg",
+                src: "img/landing/logo-v2.svg",
                 width: "140",
                 height: "35",
                 alt: "",
@@ -37739,7 +37739,7 @@ var staticRenderFns = [
             _c("img", {
               staticClass: "logo_sticky",
               attrs: {
-                src: "img/landing/logo_sticky.svg",
+                src: "img/landing/logo-v2-color.svg",
                 width: "140",
                 height: "35",
                 alt: "",
@@ -37776,7 +37776,7 @@ var staticRenderFns = [
             _c("a", { attrs: { href: "/" } }, [
               _c("img", {
                 attrs: {
-                  src: "img/landing/logo.svg",
+                  src: "img/landing/logo-v2.svg",
                   width: "140",
                   height: "35",
                   alt: "",
