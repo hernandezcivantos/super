@@ -251,7 +251,7 @@ video {
 
 @media (max-width: 1024px) {
   #hero_video {
-    background: #ededed url(../img/home_section_1.jpg) center center no-repeat;
+    background: #ededed url(../img/landing/home_section_1.jpg) center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

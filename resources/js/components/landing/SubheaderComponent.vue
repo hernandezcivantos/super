@@ -73,6 +73,7 @@
             </nav>
         </div>
     </header>
+    <!-- /header -->
 </template>
 
 <script>

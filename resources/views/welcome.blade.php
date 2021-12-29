@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('css')
-    <script src="css/style.css" defer></script>
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 @endsection
 
 @section('nav')
@@ -9,5 +9,8 @@
 @endsection
 
 @section('content')
-    <landing-main></landing-main>
+    <landing-subheader></landing-subheader>
+    <main>
+        <landing-main></landing-main>
+    </main>
 @endsection
