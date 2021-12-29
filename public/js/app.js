@@ -1963,12 +1963,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "SearchAreaComponent"
 });
@@ -1984,50 +1978,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -37713,21 +37663,7 @@ var staticRenderFns = [
                       "div",
                       { staticClass: "row no-gutters custom-search-input" },
                       [
-                        _c("div", { staticClass: "col-lg-4" }, [
-                          _c("div", { staticClass: "form-group" }, [
-                            _c("input", {
-                              staticClass: "form-control",
-                              attrs: {
-                                type: "text",
-                                placeholder: "What are you looking for...",
-                              },
-                            }),
-                            _vm._v(" "),
-                            _c("i", { staticClass: "icon_search" }),
-                          ]),
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "col-lg-6" }, [
+                        _c("div", { staticClass: "col-lg-10" }, [
                           _c("div", { staticClass: "form-group" }, [
                             _c("input", {
                               staticClass: "form-control no_border_r",
@@ -37789,7 +37725,7 @@ var staticRenderFns = [
     return _c("header", { staticClass: "header clearfix element_to_stick" }, [
       _c("div", { staticClass: "container" }, [
         _c("div", { attrs: { id: "logo" } }, [
-          _c("a", { attrs: { href: "index.html" } }, [
+          _c("a", { attrs: { href: "/" } }, [
             _c("img", {
               staticClass: "logo_normal",
               attrs: {
@@ -37823,17 +37759,6 @@ var staticRenderFns = [
               [_vm._v("Sign In")]
             ),
           ]),
-          _vm._v(" "),
-          _c("li", [
-            _c(
-              "a",
-              {
-                staticClass: "wishlist_bt_top",
-                attrs: { href: "wishlist.html", title: "Your wishlist" },
-              },
-              [_vm._v("Your wishlist")]
-            ),
-          ]),
         ]),
         _vm._v(" "),
         _c("a", { staticClass: "open_close", attrs: { href: "#0" } }, [
@@ -37848,7 +37773,7 @@ var staticRenderFns = [
               _c("span", [_vm._v("Menu")]),
             ]),
             _vm._v(" "),
-            _c("a", { attrs: { href: "index.html" } }, [
+            _c("a", { attrs: { href: "/" } }, [
               _c("img", {
                 attrs: {
                   src: "img/landing/logo.svg",
@@ -37862,208 +37787,9 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("ul", [
             _c("li", { staticClass: "submenu" }, [
-              _c("a", { staticClass: "show-submenu", attrs: { href: "#0" } }, [
+              _c("a", { staticClass: "show-submenu", attrs: { href: "/" } }, [
                 _vm._v("Home"),
               ]),
-              _vm._v(" "),
-              _c("ul", [
-                _c("li", [
-                  _c("a", { attrs: { href: "index.html" } }, [
-                    _vm._v("Default"),
-                  ]),
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "index-2.html" } }, [
-                    _vm._v("Video Background"),
-                  ]),
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "index-3.html" } }, [
-                    _vm._v("Slider"),
-                  ]),
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "index-4.html" } }, [
-                    _vm._v("GDPR Cookie Bar EU Law"),
-                  ]),
-                ]),
-              ]),
-            ]),
-            _vm._v(" "),
-            _c("li", { staticClass: "submenu" }, [
-              _c("a", { staticClass: "show-submenu", attrs: { href: "#0" } }, [
-                _vm._v("Listing"),
-              ]),
-              _vm._v(" "),
-              _c("ul", [
-                _c("li", { staticClass: "third-level" }, [
-                  _c("a", { attrs: { href: "#0" } }, [_vm._v("List pages")]),
-                  _vm._v(" "),
-                  _c("ul", [
-                    _c("li", [
-                      _c(
-                        "a",
-                        { attrs: { href: "grid-listing-filterscol.html" } },
-                        [_vm._v("List default")]
-                      ),
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c(
-                        "a",
-                        { attrs: { href: "grid-listing-filterscol-map.html" } },
-                        [_vm._v("List with map")]
-                      ),
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c(
-                        "a",
-                        {
-                          attrs: {
-                            href: "grid-listing-filterscol-full-width.html",
-                          },
-                        },
-                        [_vm._v("List full width")]
-                      ),
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c(
-                        "a",
-                        {
-                          attrs: {
-                            href: "grid-listing-filterscol-full-masonry.html",
-                          },
-                        },
-                        [_vm._v("List Masonry Filter")]
-                      ),
-                    ]),
-                  ]),
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "detail-restaurant.html" } }, [
-                    _vm._v("Detail page 1"),
-                  ]),
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "detail-restaurant-2.html" } }, [
-                    _vm._v("Detail page 2"),
-                  ]),
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "submit-restaurant.html" } }, [
-                    _vm._v("Submit Restaurant"),
-                  ]),
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "wishlist.html" } }, [
-                    _vm._v("Wishlist"),
-                  ]),
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c(
-                    "a",
-                    {
-                      attrs: {
-                        href: "admin_section/index.html",
-                        target: "_blank",
-                      },
-                    },
-                    [_vm._v("Admin Section")]
-                  ),
-                ]),
-              ]),
-            ]),
-            _vm._v(" "),
-            _c("li", { staticClass: "submenu" }, [
-              _c("a", { staticClass: "show-submenu", attrs: { href: "#0" } }, [
-                _vm._v("Other Pages"),
-              ]),
-              _vm._v(" "),
-              _c("ul", [
-                _c("li", [
-                  _c("a", { attrs: { href: "404.html" } }, [
-                    _vm._v("404 Error"),
-                  ]),
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "confirm.html" } }, [
-                    _vm._v("Confirm Booking"),
-                  ]),
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "help.html" } }, [
-                    _vm._v("Help and Faq"),
-                  ]),
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "blog.html" } }, [_vm._v("Blog")]),
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "booking.html" } }, [
-                    _vm._v("Booking"),
-                  ]),
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "leave-review.html" } }, [
-                    _vm._v("Leave a review"),
-                  ]),
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "contacts.html" } }, [
-                    _vm._v("Contacts"),
-                  ]),
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "coming_soon/index.html" } }, [
-                    _vm._v("Coming Soon"),
-                  ]),
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "account.html" } }, [
-                    _vm._v("Sign Up"),
-                  ]),
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "icon-pack-1.html" } }, [
-                    _vm._v("Icon Pack 1"),
-                  ]),
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "icon-pack-2.html" } }, [
-                    _vm._v("Icon Pack 2"),
-                  ]),
-                ]),
-              ]),
-            ]),
-            _vm._v(" "),
-            _c("li", [
-              _c("a", { attrs: { href: "submit-restaurant.html" } }, [
-                _vm._v("Submit"),
-              ]),
-            ]),
-            _vm._v(" "),
-            _c("li", [
-              _c("a", { attrs: { href: "#0" } }, [_vm._v("Buy this template")]),
             ]),
           ]),
         ]),

@@ -8,13 +8,7 @@
                         <p>The best restaurants at the best price</p>
                         <form method="post" action="grid-listings-filterscol.html">
                             <div class="row no-gutters custom-search-input">
-                                <div class="col-lg-4">
-                                    <div class="form-group">
-                                        <input class="form-control" type="text" placeholder="What are you looking for...">
-                                        <i class="icon_search"></i>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-10">
                                     <div class="form-group">
                                         <input class="form-control no_border_r" type="text" placeholder="Address, neighborhood...">
                                         <i class="icon_pin_alt"></i>
