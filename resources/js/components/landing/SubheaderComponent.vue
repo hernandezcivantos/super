@@ -3,8 +3,8 @@
         <div class="container">
             <div id="logo">
                 <a href="/">
-                    <img src="img/landing/logo.svg" width="140" height="35" alt="" class="logo_normal">
-                    <img src="img/landing/logo_sticky.svg" width="140" height="35" alt="" class="logo_sticky">
+                    <img src="img/landing/logo-v2.svg" width="140" height="35" alt="" class="logo_normal">
+                    <img src="img/landing/logo-v2-color.svg" width="140" height="35" alt="" class="logo_sticky">
                 </a>
             </div>
             <ul id="top_menu">
@@ -19,7 +19,7 @@
                     <a href="#0" class="open_close">
                         <i class="icon_close"></i><span>Menu</span>
                     </a>
-                    <a href="/"><img src="img/landing/logo.svg" width="140" height="35" alt=""></a>
+                    <a href="/"><img src="img/landing/logo-v2.svg" width="140" height="35" alt=""></a>
                 </div>
                 <ul>
                     <li class="submenu">
