@@ -2,6 +2,7 @@
 /public/hot
 /public/storage
 /storage/*.key
+/resources/sass/app.scss
 /vendor
 .env
 .env.backup
