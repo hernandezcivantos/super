@@ -12,5 +12,6 @@
     <landing-subheader></landing-subheader>
     <main>
         <landing-main></landing-main>
+        <landing-popular-categories></landing-popular-categories>
     </main>
 @endsection
