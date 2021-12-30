@@ -2098,7 +2098,20 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "SubheaderComponent"
+  name: "SubheaderComponent",
+  data: function data() {
+    return {
+      sticky: false
+    };
+  },
+  methods: {
+    updateScroll: function updateScroll() {
+      this.sticky = window.scrollY > 2;
+    }
+  },
+  mounted: function mounted() {
+    window.addEventListener('scroll', this.updateScroll);
+  }
 });
 
 /***/ }),
@@ -38378,7 +38391,8 @@ var render = function () {
               nav: false,
               responsive: {
                 0: { items: 1, nav: false },
-                600: { items: 4, nav: false },
+                900: { items: 5, nav: false },
+                600: { items: 3, nav: false },
               },
             },
           },
@@ -38577,82 +38591,99 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c(
+    "header",
+    {
+      staticClass: "header clearfix element_to_stick",
+      class: _vm.sticky ? "sticky" : "",
+    },
+    [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { attrs: { id: "logo" } }, [
+          _c("a", { attrs: { href: "/" } }, [
+            _vm.sticky
+              ? _c("img", {
+                  attrs: {
+                    src: "img/landing/logo-v2-color.svg",
+                    width: "140",
+                    height: "35",
+                    alt: "",
+                  },
+                })
+              : _c("img", {
+                  attrs: {
+                    src: "img/landing/logo-v2.svg",
+                    width: "140",
+                    height: "35",
+                    alt: "",
+                  },
+                }),
+          ]),
+        ]),
+        _vm._v(" "),
+        _vm._m(0),
+        _vm._v(" "),
+        _vm._m(1),
+        _vm._v(" "),
+        _vm._m(2),
+      ]),
+    ]
+  )
 }
 var staticRenderFns = [
   function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("header", { staticClass: "header clearfix element_to_stick" }, [
-      _c("div", { staticClass: "container" }, [
-        _c("div", { attrs: { id: "logo" } }, [
-          _c("a", { attrs: { href: "/" } }, [
-            _c("img", {
-              staticClass: "logo_normal",
-              attrs: {
-                src: "img/landing/logo-v2.svg",
-                width: "140",
-                height: "35",
-                alt: "",
-              },
-            }),
-            _vm._v(" "),
-            _c("img", {
-              staticClass: "logo_sticky",
-              attrs: {
-                src: "img/landing/logo-v2-color.svg",
-                width: "140",
-                height: "35",
-                alt: "",
-              },
-            }),
-          ]),
-        ]),
-        _vm._v(" "),
-        _c("ul", { attrs: { id: "top_menu" } }, [
-          _c("li", [
-            _c(
-              "a",
-              {
-                staticClass: "login",
-                attrs: { href: "#sign-in-dialog", id: "sign-in" },
-              },
-              [_vm._v("Sign In")]
-            ),
-          ]),
-        ]),
-        _vm._v(" "),
+    return _c("ul", { attrs: { id: "top_menu" } }, [
+      _c("li", [
+        _c(
+          "a",
+          {
+            staticClass: "login",
+            attrs: { href: "#sign-in-dialog", id: "sign-in" },
+          },
+          [_vm._v("Sign In")]
+        ),
+      ]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("a", { staticClass: "open_close", attrs: { href: "#0" } }, [
+      _c("i", { staticClass: "icon_menu" }),
+      _c("span", [_vm._v("Menu")]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("nav", { staticClass: "main-menu" }, [
+      _c("div", { attrs: { id: "header_menu" } }, [
         _c("a", { staticClass: "open_close", attrs: { href: "#0" } }, [
-          _c("i", { staticClass: "icon_menu" }),
+          _c("i", { staticClass: "icon_close" }),
           _c("span", [_vm._v("Menu")]),
         ]),
         _vm._v(" "),
-        _c("nav", { staticClass: "main-menu" }, [
-          _c("div", { attrs: { id: "header_menu" } }, [
-            _c("a", { staticClass: "open_close", attrs: { href: "#0" } }, [
-              _c("i", { staticClass: "icon_close" }),
-              _c("span", [_vm._v("Menu")]),
-            ]),
-            _vm._v(" "),
-            _c("a", { attrs: { href: "/" } }, [
-              _c("img", {
-                attrs: {
-                  src: "img/landing/logo-v2.svg",
-                  width: "140",
-                  height: "35",
-                  alt: "",
-                },
-              }),
-            ]),
-          ]),
-          _vm._v(" "),
-          _c("ul", [
-            _c("li", { staticClass: "submenu" }, [
-              _c("a", { staticClass: "show-submenu", attrs: { href: "/" } }, [
-                _vm._v("Home"),
-              ]),
-            ]),
+        _c("a", { attrs: { href: "/" } }, [
+          _c("img", {
+            attrs: {
+              src: "img/landing/logo-v2.svg",
+              width: "140",
+              height: "35",
+              alt: "",
+            },
+          }),
+        ]),
+      ]),
+      _vm._v(" "),
+      _c("ul", [
+        _c("li", { staticClass: "submenu" }, [
+          _c("a", { staticClass: "show-submenu", attrs: { href: "/" } }, [
+            _vm._v("Home"),
           ]),
         ]),
       ]),

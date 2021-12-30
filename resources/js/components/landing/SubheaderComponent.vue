@@ -1,10 +1,10 @@
 <template>
-    <header class="header clearfix element_to_stick">
+    <header class="header clearfix element_to_stick" :class="sticky ? 'sticky' : ''">
         <div class="container">
             <div id="logo">
                 <a href="/">
-                    <img src="img/landing/logo-v2.svg" width="140" height="35" alt="" class="logo_normal">
-                    <img src="img/landing/logo-v2-color.svg" width="140" height="35" alt="" class="logo_sticky">
+                    <img v-if="sticky" src="img/landing/logo-v2-color.svg" width="140" height="35" alt="">
+                    <img v-else src="img/landing/logo-v2.svg" width="140" height="35" alt="">
                 </a>
             </div>
             <ul id="top_menu">
@@ -34,7 +34,20 @@
 
 <script>
 export default {
-    name: "SubheaderComponent"
+    name: "SubheaderComponent",
+    data() {
+        return {
+            sticky: false
+        }
+    },
+    methods: {
+        updateScroll() {
+            this.sticky = window.scrollY > 2
+        }
+    },
+    mounted() {
+        window.addEventListener('scroll', this.updateScroll);
+    }
 }
 </script>
 

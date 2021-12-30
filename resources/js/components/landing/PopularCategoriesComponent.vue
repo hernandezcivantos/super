@@ -11,7 +11,7 @@
                 :autoplay="false"
                 :dots="false"
                 :nav="false"
-                :responsive="{0:{items:1,nav:false},600:{items:4,nav:false}}"
+                :responsive="{0:{items:1,nav:false},900:{items:5,nav:false},600:{items:3,nav:false}}"
             >
                 <div class="item">
                     <a href="#0">
